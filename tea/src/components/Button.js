@@ -19,7 +19,7 @@ export const Button = ({
 
     const checkButtonSize = SIZES.includes(buttonSize) 
     ? buttonSize
-    : SIZES [0]
+    : SIZES[0]
 
     return (
         <Link to='/sign-up' className='btn-mobile'>
@@ -33,3 +33,5 @@ export const Button = ({
         </Link>
     )
 };
+
+export default Button;

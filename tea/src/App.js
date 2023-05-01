@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from
 'react-router-dom'
 import './App.css';
 import logo from './TeaLogo.png';
+import Home from './components/Pages/Home';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact />
+          <Route path="/" exact element={<Home />} />
         </Routes>
       </Router>
       <h1>Welcome to CFG Tea</h1>

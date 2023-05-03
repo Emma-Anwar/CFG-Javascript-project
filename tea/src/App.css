@@ -28,6 +28,7 @@ h1 {
 
 }
 
+/* Making logo spin */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

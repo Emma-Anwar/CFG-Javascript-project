@@ -5,10 +5,6 @@ import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Pages/Home';
-import tea1 from './white tea.png';
-import tea2 from './black Tea.png';
-import tea3 from './Green Tea.png';
-import tea4 from './Oolong Tea2.png';
 import Tea from './components/Pages/TeaPage/Tea';
 import Product from './components/Pages/Product';
 import Button from './components/Button';

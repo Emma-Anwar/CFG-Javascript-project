@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Button from '../Button';
+import './Home.css';
+import logo from '../TeaLogo.png';
 
 function Home() {
-  return (
+  return(
     <div>
       <h2>Welcome to CFG Tea</h2>
       <p>Discover the world of tea with CFG Tea</p>
-      <Button buttonStyle='btn--primary' buttonSize='btn--large'>
-        Sign up now
-      </Button>
+      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }

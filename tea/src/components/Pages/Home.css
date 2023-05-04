@@ -1,0 +1,97 @@
+    h2 {
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS';
+    color:rgb(255, 255, 255)
+    
+  }
+
+  p {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    color:sienna
+    
+  }
+  
+  
+  
+  .App-logo {
+    height: 30vmin;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+  
+  
+  }
+  
+  /* Making logo spin */
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .App-header {
+    background-color: #1eebda;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+
+  
+  .Tea-Range {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fc1616;
+    font-size: 100px;
+  }
+  
+  .Personalised-products {
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }

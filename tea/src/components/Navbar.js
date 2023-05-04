@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Route, Routes} from 'react-router-dom';
 import './Navbar.css';
 import {Button} from './Button';
 
@@ -25,6 +25,9 @@ function Navbar() {
     window.addEventListener('resize', showButton);
 
 
+
+// Navbar contents
+
     return (
       <>
         <nav className='navbar'>
@@ -42,7 +45,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='Nav-item'>
-                        <Link to='/Tea Range' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='tea/src/components/Pages/Tea Page/Tea.js' className='nav-links' onClick={closeMobileMenu}>
                             Tea Range
                         </Link>
                     </li>

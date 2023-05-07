@@ -8,6 +8,7 @@ import Home from './components/Pages/Home';
 import Tea from './components/Pages/TeaPage/Tea';
 import Product from './components/Pages/Product';
 import Button from './components/Button';
+import Footer from './components/Footer';
 
 function App() {
   <div>
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/components/Pages/TeaPage/Tea" element={<Tea/>} />
           <Route exact path="/components/Pages/Product" element={<Product/>} />
         </Routes>
+        <Footer />
       </Router>
       </>
   );

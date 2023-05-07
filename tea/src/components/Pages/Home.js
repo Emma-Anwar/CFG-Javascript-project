@@ -8,7 +8,7 @@ import tea4 from './Oolong Tea2.png';
 
 function Home() {
   return (
-    <>
+    <>  
       <h1>Welcome to CFG Tea</h1>
       <img src={logo} className="App-logo" alt="logo" />
       <p>
@@ -39,16 +39,19 @@ function Home() {
         <p className="caption">Black tea packs a punch when it comes to heart health. Theaflavins help to lower blood cholesterol. And flavonoids — the same antioxidants found in red wine, dark chocolate and nuts —reduce the risk of heart disease by 8%.</p>
       </div>
 
-      <div className="image-caption-box">
-        <img src={tea3} alt="Green Tea" />
-        <p className="caption">Green tea is loaded with antioxidants. Among its benefits, it may help support brain function and fat loss, help reduce the chance of developing heart disease, and offer some protection against cancer. Green tea is touted to be one of the healthiest beverages on the planet.</p>
-      </div>
+<div className="image-caption-row">
+  <div className="image-caption-box">
+    <img src={tea3} alt="Green Tea" />
+    <p className="caption">Green tea is loaded with antioxidants. Among its benefits, it may help support brain function and fat loss, help reduce the chance of developing heart disease, and offer some protection against cancer. Green tea is touted to be one of the healthiest beverages on the planet</p>
+  </div>
+  <div className="image-caption-box">
+    <img src={tea4} alt="Oolong Tea" />
+    <p className="caption">Studies show oolong tea stimulates fat burning and increases the number of calories your body burns by up to 3.4%. Oolong tea is high in an amino acid called L-theanine, which studies show has cognitive effects like improved brain activity, better sleep quality, and reduced stress and anxiety.</p>
+  </div>
+</div>
 
-      <div className="image-caption-box">
-        <img src={tea4} alt="Oolong Tea" />
-        <p className="caption">Studies show oolong tea stimulates fat burning and increases the number of calories your body burns by up to 3.4%. Oolong tea is high in an amino acid called L-theanine, which studies show has cognitive effects like improved brain activity, better sleep quality, and reduced stress and anxiety.</p>
-      </div>
-    </>
+      </>
+
   );
 }
 

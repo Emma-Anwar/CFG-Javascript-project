@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 const Product = () => (
     <div>
         <h2>Bespoke tea accessories</h2>

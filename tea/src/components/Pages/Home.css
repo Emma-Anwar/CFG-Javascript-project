@@ -1,99 +1,183 @@
-    h2 {
-    font-size: 80px;
-    -webkit-text-stroke-width: 2px;
-    text-align: center;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS';
-    color:rgb(255, 255, 255)
-    
-  }
+h2 {
+  font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  text-align: center;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS';
+  color:rgb(255, 255, 255)
+  
+}
 
-  p {
-    font-size: 32px;
-    text-align: center;
-    font-family: 'Trebuchet MS';
-    padding-left: 10%;
-    padding-right: 10%;
-    color:sienna
-    
-  }
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  padding-left: 5%;
+  padding-right: 5%;
+  color:rgb(255, 255, 255);
   
+  /* Center the element horizontally */
+  margin-left: auto;
+  margin-right: auto;
   
+  /* Add a black background */
+  background: linear-gradient(90deg, rgb(91, 138, 232) 0%, rgb(110, 6, 96) 100%);
   
+  /* Add two curved corners */
+  border-radius: 20px 20px 20px 20px;
+  
+  /* Add some spacing */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  /* Set the width of the element */
+  width: 80%;
+  
+}
+
+
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+
+
+}
+
+/* Making logo spin */
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 30vmin;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-  
-  
   }
-  
-  /* Making logo spin */
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-    }
-  }
-  
-  .App-header {
-    background-color: #1eebda;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
+}
 
-  
-  .Tea-Range {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fc1616;
-    font-size: 100px;
+.App-header {
+  background-color: #1eebda;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  .Personalised-products {
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+  to {
+    transform: rotate(360deg);
   }
-  
-  .sign-up {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.Tea-Range {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fc1616;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Personalised-products {
+  background-position: center center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-caption-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-caption-box {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  border: 10px solid linear-gradient(90deg, rgb(91, 138, 232) 0%, #6e0660 100%);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding-bottom: 100px;
+  width: 100%;
+  font-size: 14px;
+  box-sizing: border-box;
+  max-width: 600px; /* add this line */
+
+}
+
+.image-caption-box img {
+  width: 350px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.image-caption-box .caption {
+  color:white;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  Background: linear-gradient(90deg, rgb(91, 138, 232) 0%, #6e0660 100%);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 100px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+

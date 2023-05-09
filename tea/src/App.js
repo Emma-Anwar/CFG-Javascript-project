@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Pages/Home';
 import Tea from './components/Pages/TeaPage/Tea';
-import Product from './components/Pages/Product';
+import Product from './components/Pages/Products/Product';
 import Button from './components/Button';
 import Footer from './components/Footer';
 

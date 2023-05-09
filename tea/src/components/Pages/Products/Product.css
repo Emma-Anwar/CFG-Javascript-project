@@ -124,61 +124,60 @@ h2 {
     align-items: center;
   }
   
-  
-  .image-container {
+  .product-image {
+    width: 200px;
+    height: 200px;
+    display: block;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-  
+
   .image-caption-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
   }
   
-  .image-caption-box {
-    display: inline-block;
-    margin: 20px;
+  
+  .image-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .image-caption-box1 {
+    display: flex;
+    flex-direction: column; /* Added this line */
+    align-items: center; /* Added this line */
+    margin: 20px auto;
     position: relative;
-    border: 10px solid linear-gradient(90deg, rgb(91, 138, 232) 0%, #6e0660 100%);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
     text-align: center;
     padding-bottom: 100px;
     width: 100%;
+    height: 100%;
     font-size: 14px;
     box-sizing: border-box;
-    max-width: 600px; /* add this line */
-  
+    max-width: 600px;
   }
   
-  .image-caption-box img {
-    width: 350px;
-    height: 300px;
+  
+  
+  .image-caption-box1 img {
+    width: 600px;
+    height: 400px;
     display: block;
     margin: 0 auto;
   }
   
-  
-  .image-caption-box .caption {
-    color:white;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    Background: linear-gradient(90deg, rgb(91, 138, 232) 0%, #6e0660 100%);
+  .image-caption-box1 .caption {
+    color: white;
+    background: linear-gradient(90deg, rgb(91, 138, 232) 0%, #6e0660 100%);
     text-align: center;
     padding: 10px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 40px;
     box-sizing: border-box;
     height: 100px;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    align-items: center;
   }
-  
   

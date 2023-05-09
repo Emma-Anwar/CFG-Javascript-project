@@ -9,7 +9,7 @@ import './Product.css'
 const images = [
   { src: image1, alt: "Cust Apron", caption: "CFG Tea Apron" },
   { src: image2, alt: "Cust Mug", caption: "CFG Tea Mug" },
-  { src: image3, alt: "Cust Straw Cup", caption: "CFG Tea nnpmTravel Cup" },
+  { src: image3, alt: "Cust Straw Cup", caption: "CFG Tea Travel Cup" },
   { src: image4, alt: "Cust Teacup", caption: "CFG Tea Cup" },
   { src: image5, alt: "Cust Teapot", caption: "CFG Tea Pot" }
 ];
